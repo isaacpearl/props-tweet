@@ -135,7 +135,12 @@ Comment.propTypes = {
 	likes: PropTypes.number
 }
 
-
+//error testing
+//<Comment author='somebody' message='a likable message' likes={1}/>
+//<Comment author='mr_unpopular' message='unlikable message'/>
+//<Comment author='mr_unpopular' message='another message' likes={0}/>
+//<Comment author='error_missing_message'/>
+//<Comment message='mystery author'/>
 
 
 
